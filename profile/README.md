@@ -12,14 +12,26 @@ We began by exploring several ideas then discussing and reviewing the ideas by l
 - (MD) A340DSY1128 – Widia Hayati – Universitas Sebelas Maret 
 - (MD) A054DSX3367 – Arief Muhammad – Politeknik LP3I 
 
-# Task and Technical Description
+# Each Learning Path Task and Technical Description
 
 ## Cloud Computing
+Our main task is provide the backend service and deploy it on Google Cloud. <br>
 From the cloud computing side, we plan to deploy this application on cloud run + cloud SQL (MySQL) + GCS Bucket. 
 ### Why cloud run?
 For model deployment, at first we want to use Tensorflow Js. But we encountered some problems, so we ASAP seperate it from backend service that are use Node Js. We are in conclusion to use FastAPI to deploy Tensorflow model. So the model container is stateless. In the other hand, the backend service is also stateless because eventhough it is serve the authorization, the backend service use token based authentication. We adapt the Oauth2 auth. More information about backend is on the backend service repository.
 ### Why GCS Bucket
 The bucket is has a purpose to serve the static file such as image. It is also good place to store the machine learning mode and donwload it when building the container image. 
+### Why Cloud SQL
+We use relational database becauase we are familiar with it. Also for deployment, we are got more option. 
+### CC working repository
+This repository will describe how to deploy the service
+- [Deploy Model](https://github.com/Hair-Fit/deploy-model)
+- [Backend Service](https://github.com/Hair-Fit/backend-service)
+
+## Machine Learning
+
+## Mobile Development
+
 <!--
 
 **Here are some ideas to get you started:**
