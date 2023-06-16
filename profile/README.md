@@ -65,6 +65,7 @@ On this repository you will be described how to use and making the models.
 - [x] History Feature
 - [x] Profile Feature
 ## Mobile Development Repository
+Step to replicate :
 [Mobile Development](https://github.com/Hair-Fit/mobile-app)
 <!--
 
