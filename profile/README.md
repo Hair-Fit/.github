@@ -31,7 +31,7 @@ This repository will describe how to deploy the service
 ## Machine Learning
 Our job here is to provide and creating model Machine Learning to indentify the scanned face and give the prediction what kind of face shape it is.
 ### Tools and Library
-We get the dataset of face shape from [Kaggle](https://www.kaggle.com/) <br>
+We get the dataset of face shape from [Kaggle](https://www.kaggle.com/datasets/niten19/face-shape-dataset) <br>
 We are using some library and tools like : 
 - Google Colaboratory for running and testing the program
 - TensorFlow for building image
