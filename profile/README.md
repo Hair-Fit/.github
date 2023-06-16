@@ -34,7 +34,7 @@ This repository will describe how to deploy the service
 ### Development Roadmap
 - [x] [Kotlin](https://kotlinlang.org/)
 - [x] [Glide](https://github.com/bumptech/glide)
-- [x] [Retrofit](https://square.github.io/retrofit/).
+- [x] [Retrofit](https://square.github.io/retrofit/)
 - [x] [CameraX](https://developer.android.com/training/camerax)
 - [x] [preferences](https://developer.android.com/reference/android/preference/Preference)
 - [x] [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started)
@@ -60,7 +60,7 @@ This repository will describe how to deploy the service
 
 #### 1. Clone this Project to your Computer
 ```bash
-git clone 
+git clone https://github.com/Hair-Fit/mobile-app.git
 ```
 
 or you can use Android Studio 
