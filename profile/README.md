@@ -29,6 +29,16 @@ This repository will describe how to deploy the service
 - [Backend Service](https://github.com/Hair-Fit/backend-service)
 
 ## Machine Learning
+Our job here is to provide and creating model Machine Learning to indentify the scanned face and give the prediction what kind of face shape it is.
+### Tools and Library
+We are using some library and tools like : 
+- Google Colaboratory for running and testing the program
+- TensorFlow for building image
+- Keras for building models
+- TensorFlow Js. for deploy the models
+### Machine Learning Repository
+On this repository you will be described how to use and making the models.
+- [Machine Learning Repositories](https://github.com/Hair-Fit/deploy-model)
 
 ## Mobile Development
 ### Development Roadmap
